@@ -18,6 +18,6 @@
 ### Write new codes
     git add .
 
-    git commit -m "add more code"
+    git commit -m "add more codes"
 
     git push
