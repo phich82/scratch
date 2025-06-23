@@ -1,8 +1,10 @@
-from sympy import factor, symbols, solve, sympify
-def find_zeroes(polynomial_string):
-    J = symbols('J')
-    f = sympify(polynomial_string)
-    roots = solve(f, J)
-    print(roots)
+class Person:
+  def __init__(mysillyobject, name, age):
+    mysillyobject.name = name
+    mysillyobject.age = age
 
-find_zeroes("(J**4) + (7*J**3) + (-765*J**2) + (3609*J**1) + (17820*J**0)")
+  def myfunc(abc):
+    print("Hello my name is " + abc.name)
+
+p1 = Person("John", 36)
+p1.myfunc()

@@ -1,6 +1,4 @@
 # 1. String Type
-from xmlrpc.client import boolean
-
 
 t = "mai hack"
 print(t)
