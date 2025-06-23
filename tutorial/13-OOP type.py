@@ -1,4 +1,4 @@
-class MyClass:
+class My:
   x = 5
 
-print(MyClass)
+print(My)
